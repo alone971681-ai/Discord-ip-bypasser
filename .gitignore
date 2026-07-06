@@ -1,0 +1,40 @@
+# Secrets — NEVER commit these
+.env
+*.env
+TOKEN
+*.token
+token.txt
+authorized_users.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Replit-specific (not needed on GitHub)
+.replit
+replit.md
+replit.nix
+pyproject.toml
+.upm/
+.cache/
+.config/
+.local/
+.agents/
+.pythonlibs/
+
+# Logs
+*.log
+
+# Database files (use PostgreSQL env var in production)
+*.db
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
